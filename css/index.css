@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+
+.header_up_menu{
+   
+    font-size: 0.9rem;
+    letter-spacing: 1%;
+}
+.header_up_menu ul{
+    display: flex;
+    justify-content: center;
+}
+ul li, span{
+    padding: 0.3%;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    font-family:'Montserrat', sans-serif;
+
+}
+ul li a{
+    text-decoration: none;
+    color: darkgrey;
+   
+}
+ul li{
+    list-style-type: none;
+}
+ul a:hover{
+    color: darkred
+}
+ul span{
+    color: darkred
+}
+
+.fa-facebook-f{
+    background: white;
+    border: 1px solid black
+}
+
+
+
+.header_flexbox{
+    display: flex;
+    justify-content: space-around;
+}
+.horizontal_aside{
+    display: flex;
+    justify-content: space-around;
+    border-top: 5px solid darkred;
+    background-color: rgb(61, 55, 55);
+}
+.horizontal_aside h3{
+    margin-left: 1%;
+    border-right: 1% solid darkgrey;
+    color: white;
+}
+.horizontal_aside div {
+    display: flex;
+    justify-content: center;
+    margin: 0.3% 0 0.3% 6.5%;
+    align-items: center;
+    width: 25%;
+    font-size: 0.8rem;
+    /* border-left: 1px solid darkgrey; */
+    padding-left: 1.5%;
+    
+}
+.fa-arrow-left, .fa-arrow-right{
+    color: darkgray;
+    padding: 20%;
+    border: 2px solid darkgray;
+    font-size: 1.5rem;
+}
+.fa-arrow-left a, .fa-arrow-right a{
+    text-decoration: none;
+}
+.fa-arrow-left:visited{
+ color: lightgray
+}
+.fa-arrow-right:visited{
+    color: lightgray
+}
