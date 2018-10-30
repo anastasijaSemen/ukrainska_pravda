@@ -123,7 +123,7 @@ h1 + p{
     
 }
 
-.fa-arrow-left, .fa-arrow-right{
+aside.horizontal_aside .fa-arrow-left, aside.horizontal_aside .fa-arrow-right{
     color: darkgray;
     padding: 20%;
     border: 2px solid darkgray;
@@ -148,11 +148,11 @@ h1 + p{
     grid-column: 1/2;
 }
 
-div > p{
+/* div > p{
     display: flex;
     justify-content: flex-end;
     align-items: center
-} 
+}  */
 
 .header_of_aside_list{
     display: flex;
@@ -161,17 +161,16 @@ div > p{
 
 .grid_column2{
     grid-column: 2/3;
-    padding: 3%;
+    padding: 5%;
     border-left: 1px solid lightgrey;
     border-right: 1px solid lightgrey
 }
-
-.first_block *{
+article *{
     margin: 2%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.first_block p{
+article p{
     font-size: 0.8rem;
 }
 
@@ -180,7 +179,7 @@ div > p{
     color: darkred
 }
 
-.first_block footer{
+article footer{
     color: gray;
     font-size: 0.6rem
 }
@@ -198,20 +197,89 @@ hr.red {
 }
 
 .header_of_main h3{
-    margin-top: 0
+    margin: 0
 }
 
 .header_of_main span{
     color: gray;
     font-size: 0.7rem;
-    margin-top: 1%;
+    margin: 1%;
     transition-duration: 2s
 }
 
 .header_of_main span:hover{
     color: darkred
 }
+.joint_content{
+    padding: 1% 0
+}
+
+.joint_content img{
+    float: left;
+    margin: 0 2% 2% 0
+}
+
+.joint_content h3{
+    font-size: 0.9rem;
+    transition-duration: 2sec
+}
+article h3:hover{
+    color: darkred
+}
+h4:hover{
+    color: darkred
+}
 
 .grid_column3{
     grid-column: 3/4
 }
+aside h2{
+    color: darkred
+}
+
+.grid_column3{
+    padding: 1% 20% 1% 2%
+
+}
+.grid_column3 h2{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    margin-bottom: 1%
+}
+ span#reklama{
+    display: block;
+    font-size: 0.7rem;
+    color: grey;
+    margin: 15% 0;
+}
+
+h2 i{
+    color: grey;
+    font-size: 0.8rem;
+}
+.article_small a{
+    text-decoration: none;
+    color: darkred;
+    font-size: 0.7rem
+}
+
+.article_small h4{
+    font-size: 0.8rem;
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+.article_small span{
+    margin-top: 0;
+    color: darkred;
+    font-size: 0.6rem
+}
+.article_small p{
+    font-size: 0.75rem;
+    margin-top: 1%
+}
+div.article_small{
+    margin-top: 2%;
+}
+
