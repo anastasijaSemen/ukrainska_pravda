@@ -17,51 +17,59 @@ a{
 
 .header_up_menu ul{
     display: flex;
-    justify-content: center;
+    justify-content: center
 }
+
 ul li, span{
-    padding: 0.3%;
+    padding: 0.3%
 }
+
 nav ul{
     display: flex;
     justify-content: center;
-    font-family:'Montserrat', sans-serif;
-
+    font-family:'Montserrat', sans-serif
 }
+
 ul li {
     text-decoration: none;
     color: darkgrey;
-    transition-duration: 2s;
-   
+    transition-duration: 2s
 }
+
 ul li{
-    list-style-type: none;
+    list-style-type: none
 }
+
 a:hover{
     color: darkred
 }
+
 ul span{
     color: darkred
 }
 
 .header_flexbox{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around
 }
+
 .sotial_networks{
     display: flex;
-    align-items: center;
+    align-items: center
 }
+
 .fa-facebook-f, .fa-twitter, .fa-telegram-plane{
     font-size: 1.5rem;
     border: 1px solid darkgray;
     padding: 15%;
     margin: 5%;
-    color: grey;
-    }
-.name_of_site{
-    line-height: 0.1;
+    color: grey
 }
+
+.name_of_site{
+    line-height: 0.1
+}
+
 h1{
     font-size: 3rem
 }
@@ -72,29 +80,33 @@ h1 + p{
 }
 
 #lang{
-    color: darkred;
-   }
+    color: darkred
+}
+
 .setting{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-
+    align-items: center
 }
+
 .language_chanding{
     border: 1px solid darkgray;
     padding: 10%;
-    margin-right: 2%;
-} 
+    margin-right: 2%
+}
+
 .fa-search{
     border: 1px solid darkgray;
     padding: 10%;
     margin-left: 2%
 }
+
 .item_menu li a{
     font-size: 1.1rem;
     color: black;
     transition-duration: 2s
 }
+
 .item_menu a:hover{
     color: darkred
 }
@@ -106,10 +118,11 @@ h1 + p{
     background-color: rgb(61, 55, 55);
     margin-bottom: 3%
 }
+
 .horizontal_aside h3{
     margin-left: 1%;
     border-right: 1% solid darkgrey;
-    color: white;
+    color: white
 }
 .horizontal_aside div{
     display: flex;
@@ -118,8 +131,7 @@ h1 + p{
     align-items: center;
     width: 25%;
     font-size: 0.8rem;
-    /* border-left: 1px solid darkgrey; */
-    padding-left: 1.5%;
+    padding-left: 1.5%
     
 }
 
@@ -149,9 +161,15 @@ aside.horizontal_aside .fa-arrow-left, aside.horizontal_aside .fa-arrow-right{
     margin: 1% 0 2% 20%;
 }
 
+
 div.heading_list{
     border-right: 5px solid darkgrey
 }
+
+div.heading_list p:hover{
+    color: darkred
+}
+
 .heading_list div{
     display: flex;
     justify-content: space-between
