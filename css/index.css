@@ -290,6 +290,8 @@ aside h2{
     font-size: 1.1rem;
     margin-bottom: 1%
 }
+
+
  span#reklama{
     display: block;
     font-size: 0.7rem;
@@ -323,6 +325,79 @@ h2 i{
     margin-top: 1%
 }
 div.article_small{
-    margin-top: 2%;
+    margin-top: 2%
 }
 
+ .button_go_on{
+    width: 90%;
+    border: 0.5px solid grey;
+    padding: 3.5%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600
+}
+
+.grid_column2 .button_go_on a:first-child{
+    color: darkred;
+    font-weight: 600;
+    font-size: smaller;
+    padding: 2px
+}
+
+.grid_column2 .button_go_on a:last-child{
+    color: gray
+}
+
+.grid_column2 .button_go_on{
+    width: 90%;
+    border: 0.5px solid grey;
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+.background_aside img{
+    position: absolute;
+    z-index: -3;
+}
+.background_aside span{
+    position: relative;
+    margin: 10px;
+    background: darkred;
+    color: snow;
+    z-index: 3;
+
+}
+.background_h3{
+    margin-top: 115px;
+    z-index: 2;
+    color: snow;
+    font-weight: bolder;
+    width: 300px;
+    background: rgba(51, 43, 43, 0.2);
+    text-align: center
+}
+.background_aside{
+    margin-bottom: 15px
+}
+.twitter{
+    width: 300px;
+    height:400px;
+    overflow: scroll;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+/* <div class="timeline-Header timeline-InformationCircle-widgetParent" data-scribe="section:header">
+  <div class="timeline-InformationCircle" data-scribe="element:notice"><a href="https://support.twitter.com/articles/20175256" class="Icon Icon--informationCircleWhite js-inViewportScribingTarget" title="Відомості про Рекламу у Твіттері та конфіденційність"><span class="u-hiddenVisually">Відомості про Рекламу у Твіттері та конфіденційність</span></a>
+</div>
+  
+  
+<h1 class="timeline-Header-title u-inlineBlock" data-scribe="element:title">Твіти <span class="timeline-Header-byline" data-scribe="element:byline">від 
+<a class="customisable-highlight" href="https://twitter.com/ukrpravda_news" title="‎@ukrpravda_news у Твіттері">‎@ukrpravda_news</a></span></h1> */
+
+  
+  
+  
+  
+  
+</div>
